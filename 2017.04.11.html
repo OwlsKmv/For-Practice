@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var Clicks = 1;
+var i ;
+function NOC(){
+	for(i=Clicks;i<Clicks+3;i++)
+		document.getElementById("test").innerHTML += "<li>"+i+"</li>";
+	Clicks=Clicks+3;
+}
+
+</script>
+</body>
+	<input type="button" onclick="NOC()" value="Button">
+	<ul id="test">
+</html>
